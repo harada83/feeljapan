@@ -45,6 +45,7 @@
         float: right;
         font-size: 26pt;
         margin-right: 20px;
+        font-family: 'Lobster';
     }
 
     .post {
@@ -54,3 +55,7 @@
     .post h1 a, .post h1 a:visited {
         color: #000000;
     }
+
+    .comment {
+    margin: 20px 0px 20px 20px;
+	}
