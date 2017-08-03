@@ -15,7 +15,7 @@ class Post(models.Model):
         self.published_date = timezone.now()
         self.save()
 
-    def __str__(self):
+    def __unicode__(self):
         return self.title
 
     def approved_comments(self):
@@ -32,5 +32,5 @@ class Comment(models.Model):
         self.approved_comment = True
         self.save()
 
-    def __str__(self):
+    def __unicode__(self):
         return self.text

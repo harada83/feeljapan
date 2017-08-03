@@ -1,61 +1,65 @@
-	h1 a {
-		color: #ffffff;
-		font-family: 'Lobster';
-	}
+h1 a {
+	color: #ffffff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-	body {
-    	padding-left: 0px;
-	}
+body {
+	padding-left: 0px;
+}
 
-    .page-header {
-        background-color: #ff9400;
-        margin-top: 0;
-        padding: 20px 20px 20px 40px;
-    }
 
-    .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-        color: #ffffff;
-        font-size: 36pt;
-        text-decoration: none;
-    }
+.page-header {
+    background-color: red;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
 
-    .content {
-        margin-left: 40px;
-    }
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
 
-    h1, h2, h3, h4 {
-        font-family: 'Lobster', cursive;
-    }
+.content {
+    margin-left: 40px;
+}
 
-    .date {
-        float: right;
-        color: #828282;
-    }
+h1, h2, h3, h4 {
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+}
 
-    .save {
-        float: right;
-    }
+.date {
+    float: right;
+    color: #828282;
+}
 
-    .post-form textarea, .post-form input {
-        width: 100%;
-    }
+.save {
+    float: right;
+}
 
-    .top-menu, .top-menu:hover, .top-menu:visited {
-        color: #ffffff;
-        float: right;
-        font-size: 26pt;
-        margin-right: 20px;
-        font-family: 'Lobster';
-    }
+.post-form textarea, .post-form input {
+    width: 100%;
+}
 
-    .post {
-        margin-bottom: 70px;
-    }
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-    .post h1 a, .post h1 a:visited {
-        color: #000000;
-    }
+.post {
+    margin-bottom: 70px;
 
-    .comment {
-    margin: 20px 0px 20px 20px;
-	}
+}
+
+.post h1 a, .post h1 a:visited {
+    /*font-family: 'Lobster';    */
+    color: #000000;
+}
+
+.comment {
+margin: 20px 0px 20px 20px;
+}
+
